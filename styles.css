@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  --dark-green:   #4D96A9;
+  --dark-purple:  #855FB1;
+  --dark-color:   #28283D;
+  --light-grey:   #87879D;
+  --neon-blue:    #8FE3F9;
+  --light-purle:  #D9B8FF;
+  --chalk-white:  #FAFAFA;
+  font-family: 'Red Hat Display', sans-serif;
+  overflow-x: hidden;
+}
+
+body {
+  text-align: center;
+  background-color: var(--chalk-white);
+  padding-top: 48px;
+  
+}
+
+.header-content {
+  padding: 0 24px;
+}
+
+.first-banner {
+  display: flex;
+  justify-content: center;
+}
+
+.hero-img {
+  width: 110%;
+  overflow: visible;
+}
+
+.footer {
+  background-image: url("assets/mobile/image-footer.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
