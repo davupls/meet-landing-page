@@ -221,28 +221,45 @@ h2 {
 
 /* Tablet Layout */
 @media only screen and (min-width: 481px) and (max-width: 768px) {
+
+  .logo {
+    margin-bottom: 64px;
+  }
+
+  .first-banner {
+    margin-bottom: 72px;
+  }
+
   .header-content{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 287px;
   }
 
   h1 {
     font-size: 3rem;
     font-weight: 900;
-    
+    margin-bottom: 24px;
     text-align: center;
   }
 
   h1,
   .header-content-p {
+    /* line-height: 26px; */
     max-width: 457px;
+    margin-bottom: 32px;
   }
 
   .gallery {
     display: flex;
     gap: 7.2px;
     padding: 40px;
+    margin-bottom: 48px;
+  }
+
+  h3 {
+    margin-bottom: 16px;
   }
 
   .article {
@@ -256,6 +273,7 @@ h2 {
     font-weight: 900;
     line-height: 44px;
     max-width: 445px;
+    margin-bottom: 32px;
   }
 
   .article-p {
