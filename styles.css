@@ -40,10 +40,12 @@ h3 {
 
 .button--large{
   max-width: 200px;
+  padding: 16px 35px;
 }
 
 .button--small {
-  max-width: 140px;
+  padding: 16px 20px;
+  width: 145px;
 }
 
 .button {
@@ -52,7 +54,7 @@ h3 {
   color: var(--chalk-white);
   font-size: 1rem;
   font-weight: 900;
-  padding: 16px 35px;
+  
 }
 
 .button--green {
@@ -87,7 +89,7 @@ h3 {
 }
 
 .logo {
-  margin-bottom: 54px;
+  margin-bottom: 45px;
 }
 
 .first-banner {
@@ -109,20 +111,25 @@ h3 {
 
 h1 {
   font-size: 2.5rem;
-  margin-bottom: 24px;
+  margin-bottom: 25px;
+  line-height: 48px;
+  padding: 0 20px;
 }
 
 p {
   font-size: 1rem;
+  line-height: 24px;
 }
 
 .header-content-p {
   margin-bottom: 34px;
 }
 
+
 .header-content-btn-wrapper {
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 .main {
@@ -251,7 +258,6 @@ h2 {
 
   h1,
   .header-content-p {
-    /* line-height: 26px; */
     max-width: 457px;
     margin-bottom: 32px;
   }
