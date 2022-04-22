@@ -392,6 +392,7 @@ h2 {
   .logo {
     grid-column: span 3;
     justify-self: center;
+    margin-bottom: 61px;
   }
 
   .header-content {
